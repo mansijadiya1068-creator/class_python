@@ -29,5 +29,15 @@ print("data types : ",type(x))
 num=float(input("enter number :   "))
 print("square root=",math.sqart(num))
 print("absolute value: ",abs(num))
+base=float(input("enter base:"))
+exponent=int(input("enter exponent:"))
+print(base**exponent)
+num=float(input("enter a number"))
+if num > 0:
+  print("positive")
+elif num < 0:
+   print("negetive")
+else:
+  print("zero")
 
     
