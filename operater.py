@@ -34,3 +34,7 @@ print(a/b)
 numbers=[1,2,3,4]
 print(2 in numbers)
 print(5 not in numbers)
+x=19
+y=10
+print(x is y)
+print(x is not y)
