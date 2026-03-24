@@ -11,4 +11,38 @@
     print("marks:",marks)
     student_info("ravi",101,85)
 
-def
+def simple_interest(p,r,n)
+si=(p*r*n)/100
+print("simple interest : ",si)
+simple_interest(10000,2.2)
+simple_intrest(50000,1.2,3)
+
+def ar_circle(r):
+  a_circle=3.14*r*r
+  print("area of circle : ",a_circle)
+  ar)_circle(1.5)
+  ar_circle(4)
+
+def check_value(no):
+  if(no>0):
+    print("positive")
+  else:
+    pprint("zero")
+    check_value(0)
+    check_value(90)
+    check_value(-15)
+
+def odd_even(no):
+  if(no % 2 == 0):
+    print(f"value {no} is even")
+    else
+    print(f"value {no} is odd")
+    odd_even(*50)
+    odd_even(15)
+
+def addition(a,b):
+  add = a + b
+  print*("addition of two value",add)
+  addition(50,10,5)
+  addition(100,200)
+  
